@@ -1,0 +1,12 @@
+{
+  "name": "2xu-season-off",
+  "version": "1.0.0",
+  "private": true,
+  "description": "2XU SEASON OFF 프로모션 정적 페이지. 웹폰트는 상용 라이선스 파일을 fonts/에 두고 fonts.css로 연결 (npm 공개 폰트 패키지 없음).",
+  "scripts": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
+    "@fontsource/rubik": "^5.2.8"
+  }
+}
