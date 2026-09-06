@@ -1,6 +1,9 @@
 # 2xu-follow
 
-2XU SEASON OFF 프로모션 정적 페이지 (`index.html`, `base.css`, `style.css`).
+2XU 테크스토리 · 팔로워 이벤트 정적 페이지.
+
+- 테크스토리: `index.html` (`#contents` 안)
+- 팔로워 이벤트: `follow.html`
 
 ## 저장소
 
@@ -16,20 +19,13 @@ https://github.com/richosj/2xu-follow
 
 최초 한 번만 Source 를 GitHub Actions 로 바꾸면 이후 푸시마다 자동 배포됩니다.
 
-## 이미지 파일 네이밍 (루트에 배치)
+## 페이지
 
-| 파일명 | 용도 |
+| 파일 | 용도 |
 | --- | --- |
-| `main-visual-pc.png` | 메인 비주얼 배경 (PC) |
-| `main-visual-mo.png` | 메인 비주얼 배경 (모바일) |
-| `ico-running.png` | RUNNING 주차 타이틀 우측 아이콘 |
-| `ico-triathlon.png` | TRIATHLON 주차 타이틀 우측 아이콘 |
-| `ico-training.png` | TRAINING 주차 타이틀 우측 아이콘 |
-| `calendar-running.png` | RUNNING 주차 캘린더 통이미지 |
-| `calendar-triathlon.png` | TRIATHLON 주차 캘린더 통이미지 |
-| `calendar-training.png` | TRAINING 주차 캘린더 통이미지 |
-| `store-visual-pc.png` | 매장 전경 배경 (PC) |
-| `store-visual-mo.png` | 매장 전경 배경 (모바일) |
-| `ico-tel.png` | 매장 안내 문의전화 아이콘 |
-| `ico-time.png` | 매장 안내 영업시간 아이콘 |
-| `ico-insta.png` | 매장 안내 인스타그램 아이콘 |
+| `index.html` | 테크스토리 (PC / 모바일 반응형) |
+| `follow.html` | 팔로워 전용 이벤트 (PC / 모바일 반응형) |
+
+## 이미지
+
+Figma에서보낸 에셋은 `images/tech/`, `images/follow/` 에 둡니다.
