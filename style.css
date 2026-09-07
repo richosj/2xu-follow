@@ -726,6 +726,10 @@ body.theme01 {
   object-position: 70% center;
 }
 
+.follow-hero__bg .lp-hero-mo {
+  object-position: center top;
+}
+
 .follow-hero__lines {
   position: absolute;
   width: 90%;
