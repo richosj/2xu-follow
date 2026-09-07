@@ -719,7 +719,7 @@ body.theme01 {
 .follow-hero__bg {
   position: absolute;
   inset: 0;
-  opacity: 0.45;
+  /* opacity: 0.45; */
 }
 
 .follow-hero__bg img {
@@ -959,16 +959,18 @@ body.theme01 {
   font-weight: 700;
   color: #fff;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .follow-coupon__btn:hover {
-  background: #111;
+  background: #E4C584;
+  color: #000000;
 }
 
-.follow-coupon__btn img {
+.follow-coupon__btn svg {
   width: 21px;
   height: 20px;
+  flex-shrink: 0;
 }
 
 .follow-hero__note {
@@ -1181,7 +1183,7 @@ body.theme01 {
   }
 
   .follow-hero__divider {
-    margin: 20px 0 10px;
+    margin: 40px 0 10px;
     font-size: 24px;
     letter-spacing: 4.8px;
   }
@@ -1301,11 +1303,16 @@ body.theme01 {
 }
 
 @media all and (max-width: 767px) {
+  .follow-hero__badge{
+    margin-bottom: 20px;
+  }
   .follow-hero__en {
     font-size: 56px;
+    gap:0;
   }
 
   .follow-hero__off-label {
     font-size: 22px;
+    line-height: 1;
   }
 }
