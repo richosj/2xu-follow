@@ -1210,8 +1210,11 @@ body.theme01 {
   }
 
   .follow-coupon__deal {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 32px;
+  }
+  .follow-coupon__img{
+    margin-bottom: 20px;
   }
 
   .follow-coupon__deal .is-pct {
